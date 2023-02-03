@@ -25,6 +25,18 @@
     margin-top: 2rem
     text-align: center
 
+%center-bg
+    background-size: cover
+    background-position: center
+
+%card-hover
+    .job-card-title, .job-card-cover, .job-card-description
+        opacity: 0
+
+    &:hover
+        .job-card-title, .job-card-cover, .job-card-description
+            opacity: 1
+
 // Buttons
 .btn
     padding: .6rem 1rem
