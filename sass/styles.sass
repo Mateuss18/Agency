@@ -9,6 +9,13 @@
     background-size: cover
     background-position: center
 
+    @include mobile
+        height: 100vh
+
+    nav
+        @include mobile
+            display: none
+
     .nav-container
         display: flex
         justify-content: space-between
@@ -19,6 +26,9 @@
         padding: 1.5rem 2rem
         background-color: $black
         z-index: 10
+
+        @include mobile
+            padding: 1rem
 
         .brand
             color: $light-color
@@ -42,6 +52,9 @@
             color: $light-color
             display: none
 
+            @include mobile
+                display: block
+
     .title-container
         color: $light-color
         display: flex
@@ -50,14 +63,24 @@
         justify-content: center
         height: 100%
 
+        @include mobile
+            text-align: center
+            padding: 2rem
+
         h2
             font-size: 3rem
             @extend %title-text-shadow
+
+            @include mobile
+                font-size: 2.25rem
 
         h1
             font-size: 4rem
             margin-top: 1rem
             @extend %title-text-shadow
+
+            @include mobile
+                font-size: 3.25rem
 
 .services-container
     text-aling: center
@@ -73,12 +96,19 @@
         justify-content: space-around
         padding: 2rem
 
+        @include mobile
+            padding: 2rem 0
+
         .services-card
             width: 30% 
             margin: 1%
             padding: 2rem
             border: 1px solid #ccc
             transition: .3s
+
+            @include mobile
+                width: 100%
+                margin-bottom: 2rem
 
             i
                 color: $primary-color
@@ -103,6 +133,10 @@
     background-color: $secondary-bg
     padding: 3rem
 
+    @include mobile
+        padding: 2rem
+        font-size: 2rem
+
     h2
         @extend %section-title
 
@@ -110,9 +144,13 @@
         display: flex
         padding: 2rem 0
 
+        @include mobile
+            flex-direction: column
+
         .first-job
             width: 30%
             height: 415px
+            margin: 0 2%
             background-image: url('../assets/job1.jpg')
             position: relative
             cursor: pointer
@@ -121,10 +159,17 @@
             @extend %center-bg
             @extend %card-hover
 
+            @include mobile
+                @include card-mobile
+
         .other-jobs-container
             display: flex
             flex-wrap: wrap
             width: 68%
+
+            @include mobile
+                width: 100%
+                flex-direction: column
 
             .job-card
                 width: 46%
@@ -134,6 +179,9 @@
                 margin: 0 15px 15px 0
                 @extend %center-bg
                 @extend %card-hover
+
+                @include mobile
+                    @include card-mobile
 
             #job2
                 background-image: url('../assets/job2.jpg')
@@ -181,6 +229,10 @@ footer
         display: flex
         flex-wrap: wrap
 
+        @include mobile
+            max-width: 100%
+            flex-direction: column
+
         .footer-title
             color: $light-color
             font-weight: bold
@@ -189,16 +241,30 @@ footer
     .footer-desc-container, .footer-links-container
         width: 50%
 
+        @include mobile
+            width: 100%
+            margin-bottom: 2rem
+            text-align: center
+
     .footer-desc-container
         p
             width: 80%
             line-height: 1.3rem
 
+            @include mobile
+                width: 100%
+
     .footer-links-container
         display: flex
 
+        @include mobile
+            flex-direction: column
+
         &-list
             padding: 0 1rem
+
+            @include mobile
+                margin-top: 1.5rem
 
             li
                 margin-bottom: 0.5rem
@@ -212,7 +278,10 @@ footer
 
     .footer-copy-right-container
         width: 100%
-        margin-top: 3rem
+        margin-top: 3rem  
+
+        @include mobile 
+            text-align: center
 
         p
             margin-bottom: 1rem
