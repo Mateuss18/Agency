@@ -45,6 +45,7 @@
 
                 a
                     color: $light-color
+                    font-weight: 700
                     @include main-hover
 
         .fas.fa-bars
@@ -114,7 +115,6 @@
                 color: $primary-color
                 font-size: 4rem
                 display: block
-                margin-top: block
                 margin-top: 1rem
                 margin-bottom: 1.5rem
 
@@ -238,50 +238,49 @@ footer
             font-weight: bold
             margin-bottom: 1rem
 
-    .footer-desc-container, .footer-links-container
-        width: 50%
-
-        @include mobile
-            width: 100%
-            margin-bottom: 2rem
-            text-align: center
-
-    .footer-desc-container
-        p
-            width: 80%
-            line-height: 1.3rem
+        .footer-desc-container, .footer-links-container
+            width: 50%
 
             @include mobile
                 width: 100%
+                margin-bottom: 2rem
+                text-align: center
 
-    .footer-links-container
-        display: flex
+        .footer-desc-container
+            p
+                width: 80%
+                line-height: 1.3rem
 
-        @include mobile
-            flex-direction: column
+                @include mobile
+                    width: 100%
 
-        &-list
-            padding: 0 1rem
+        .footer-links-container
+            display: flex
+            gap: 1rem
 
             @include mobile
-                margin-top: 1.5rem
+                flex-direction: column
 
-            li
-                margin-bottom: 0.5rem
+            &-list
+                @include mobile
+                    margin-top: 1.5rem
 
-                a
-                    color: $text-color
-                    transition: .5s
+                li
+                    margin-bottom: 0.5rem
 
-                    &:hover
-                        color: $light-color
+                    a
+                        color: $text-color
+                        transition: .5s
 
-    .footer-copy-right-container
-        width: 100%
-        margin-top: 3rem  
+                        &:hover
+                            color: $light-color
 
-        @include mobile 
-            text-align: center
+        .footer-copy-right-container
+            width: 100%
+            margin-top: 3rem  
 
-        p
-            margin-bottom: 1rem
+            @include mobile 
+                text-align: center
+
+            p
+                margin-bottom: 1rem
