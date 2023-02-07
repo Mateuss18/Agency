@@ -1,11 +1,13 @@
 import React from 'react'
 import { Header } from '../components/Header/Header';
+import { Main } from '../components/Main/Main';
 
 function Home() {
     return (
-        <div>
+        <>
             <Header />
-        </div>
+            <Main />
+        </>
     )
 }
 
