@@ -1,4 +1,5 @@
 import React from 'react'
+import { FooterLinksList } from './FooterLinksList'
 import './footer.scss'
 
 const Footer = () => {
@@ -16,66 +17,27 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="footer-links-container">
-                    <div className="footer-links-container-list">
-                        <p className="footer-title">Link</p>
-                        <ul>
-                            <li>
-                                <a href="#">Base de conhecimentos</a>
-                            </li>
-                            <li>
-                                <a href="#">Trabalhe Conosco</a>
-                            </li>
-                            <li>
-                                <a href="#">Ultimos Projetos</a>
-                            </li>
-                            <li>
-                                <a href="#">Politica de Privacidade</a>
-                            </li>
-                            <li>
-                                <a href="#">Contato</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="footer-links-container-list">
-                        <p className="footer-title">Link</p>
-                        <ul>
-                            <li>
-                                <a href="#">Base de conhecimentos</a>
-                            </li>
-                            <li>
-                                <a href="#">Trabalhe Conosco</a>
-                            </li>
-                            <li>
-                                <a href="#">Ultimos Projetos</a>
-                            </li>
-                            <li>
-                                <a href="#">Politica de Privacidade</a>
-                            </li>
-                            <li>
-                                <a href="#">Contato</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="footer-links-container-list">
-                        <p className="footer-title">Link</p>
-                        <ul>
-                            <li>
-                                <a href="#">Base de conhecimentos</a>
-                            </li>
-                            <li>
-                                <a href="#">Trabalhe Conosco</a>
-                            </li>
-                            <li>
-                                <a href="#">Ultimos Projetos</a>
-                            </li>
-                            <li>
-                                <a href="#">Politica de Privacidade</a>
-                            </li>
-                            <li>
-                                <a href="#">Contato</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <FooterLinksList
+                        title="Sobre"
+                        li1="Quem somos"
+                        li2="Trabalhe conosco"
+                        li3="Contato"
+                        li4="Blog"
+                    />
+                    <FooterLinksList
+                        title="Soluções"
+                        li1="Sites leves e rápidos"
+                        li2="Hospedagem AWS/Azure"
+                        li3="E-commerces"
+                        li4="SEO"
+                    />
+                    <FooterLinksList
+                        title="Sede Brasil"
+                        li1="Brasil - São Paulo"
+                        li2="Brasil - Rio de Janeiro"
+                        li3="Brasil - Campinas"
+                        li4="Canada - Vancouver"
+                    />
                 </div>
                 <div className="footer-copy-right-container">
                     <p>&copy; 2023 Agency</p>

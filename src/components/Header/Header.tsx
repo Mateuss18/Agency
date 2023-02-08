@@ -1,7 +1,8 @@
 import React from 'react'
-import './header.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBrain, faBars } from '@fortawesome/free-solid-svg-icons'
+import { LiLink } from '../LiLink'
+import './header.scss'
 
 const Header = () => {
     return (
@@ -13,28 +14,16 @@ const Header = () => {
                 </a>
                 <nav>
                     <ul className="nav-container-navbar">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Serviços</a>
-                        </li>
-                        <li>
-                            <a href="#">Contato</a>
-                        </li>
-                        <li>
-                            <a href="#" className="btn btn-primary">
-                                Entrar
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" className="btn">
-                                Registrar
-                            </a>
-                        </li>
+                        <LiLink content={'Home'} />
+                        <LiLink content={'Serviços'} />
+                        <LiLink content={'Contato'} />
+                        <LiLink linkClassName='btn btn-primary' content={'Entrar'} />
+                        <LiLink linkClassName='btn' content={'Registrar'} />
                     </ul>
                 </nav>
-                <FontAwesomeIcon icon={faBars} />
+                <button className='menu-button'>
+                    <FontAwesomeIcon icon={faBars} />
+                </button>
             </div>
             <div className="title-container">
                 <h2>Nós desenvolvemos</h2>
