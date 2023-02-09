@@ -21,7 +21,7 @@
 
 ### [🔗 Clique aqui para vizualizar a página!](https://agency-2.netlify.app)
 <div align="center">
-  <img src="./assets/readme-image.png">
+  <img src="./src/assets/readme-image.png">
 </div>
 
 <br>
