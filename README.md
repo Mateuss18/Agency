@@ -24,7 +24,13 @@
 <br>
 
 <div align="center">
-  <img src="./assets/readme-gif.mp4">
+  
+
+
+https://user-images.githubusercontent.com/71786964/217696067-dbf5b96f-c274-44f1-af3b-57563805b2f7.mp4
+
+
+
 </div>
 
 >
