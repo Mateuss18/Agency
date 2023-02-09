@@ -15,7 +15,8 @@
 
 <br>
 
-### [🔗 Clique aqui para vizualizar a página!](https://mateuss18.github.io/To-do-list/)
+### [🔗 Clique aqui para vizualizar a página!](https://mateuss18.github.io/Agency/)
+
 <div align="center">
   <img src="./assets/readme-image.png">
 </div>
@@ -23,10 +24,11 @@
 <br>
 
 <div align="center">
-  <img src="./assets/readme-gif.gif">
+  <img src="./assets/readme-gif.mp4">
 </div>
 
 >
+
 ---
 
 ## 🔨 Tecnologias usadas
@@ -40,7 +42,9 @@
 ###
 
 >
+
 ---
+
 ## 🎯 Features
 
 - Reponsividade Mobile
@@ -48,7 +52,7 @@
 
 ---
 
-## 📝 Licença   
+## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
@@ -56,12 +60,11 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 Feito por Mateus Lopes :D ❤ <br><br>
 <a href="mailto:mateus20.lopes02@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Mateuss18">
+<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Mateuss18">
 </a>
 <a href="https://www.linkedin.com/in/mateus--lopes/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Mateuss18">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin Mateuss18">
 </a>
 <a href="https://mateus-lopes-portfolio.netlify.app" target="_blank">
-  <img src="https://img.shields.io/badge/-Portfolio-black?logo=flickr&style=for-the-badge" alt="Portfolio Mateuss18">
+<img src="https://img.shields.io/badge/-Portfolio-black?logo=flickr&style=for-the-badge" alt="Portfolio Mateuss18">
 </a>
-
