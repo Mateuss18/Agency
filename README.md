@@ -8,7 +8,7 @@
 
 <h3 align="center">
   Agency 2.0 é uma aplicação que simula um site de uma agencia de desenvolvimento fictícia, eu desenvolvi ela para treinar os conceitos do SASS, React e Typescript
-</h4>
+</h3>
 
 <p align="center">
     <a href="#🔗-clique-aqui-para-vizualizar-a-página!">Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
