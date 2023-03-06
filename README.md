@@ -21,7 +21,9 @@
 
 ### [🔗 Clique aqui para vizualizar a página!](https://agency-2.netlify.app)
 <div align="center">
-  <img src="./src/assets/readme-image.png">
+
+![bandicam 2023-03-05 23-15-14-256](https://user-images.githubusercontent.com/71786964/223005361-5da139b7-3ab0-4520-a6c5-d46acf7c42d6.jpg)
+
 </div>
 
 <br>
